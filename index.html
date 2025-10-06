@@ -24,8 +24,6 @@
 
       <button type="submit">Enviar</button>
     </form>
-
-    <!-- Caja de resultados -->
     <div id="resultado" class="resultado">
       <button class="cerrar-btn" id="cerrarBtn">X</button>
       <h2>Datos capturados</h2>
@@ -42,7 +40,7 @@
     const mensajeError = document.getElementById("mensajeError");
 
     form.addEventListener("submit", (e) => {
-      e.preventDefault(); // evita recargar la página
+      e.preventDefault();
 
       const nombre = document.getElementById("nombre").value.trim();
       const apellidos = document.getElementById("apellidos").value.trim();
@@ -69,3 +67,4 @@
   </script>
 </body>
 </html>
+
