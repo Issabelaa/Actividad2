@@ -59,7 +59,6 @@ button:hover {
   background-color: #6043d3;
 }
 
-/* Caja de resultados */
 .resultado {
   background-color: #e6e1ff;
   border: 2px solid #7b5cf1;
@@ -98,4 +97,5 @@ button:hover {
   font-size: 0.9em;
   margin-bottom: 10px;
   text-align: center;
+
 }
